@@ -1,4 +1,5 @@
-import 'package:dj_fanz_spinfire/loginPage/view/login_view.dart';
+import 'package:dj_fanz_spinfire/loginPage/login_view.dart';
+import 'package:dj_fanz_spinfire/prectice.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoginPage(),
+     home: LoginView(),
+     // home:PasswordField(),
     );
   }
 }
